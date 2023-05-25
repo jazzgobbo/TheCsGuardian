@@ -34,7 +34,7 @@ ReactDOM.render(
     <Menu />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Artiles" element={<Articles />} />
+      <Route path="/Articles" element={<Articles />} />
       <Route path="/Media" element={<Media />} />
 
     </Routes>

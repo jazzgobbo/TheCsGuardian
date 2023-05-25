@@ -18,6 +18,7 @@ const Menu = () => {
                   <button>Home</button>
                 </NavLink>
               </li>
+              
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/Articles">
                 <button>Articles</button>
@@ -26,6 +27,21 @@ const Menu = () => {
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/Media">
                   <button>Media</button>
+                </NavLink>
+            <li className="nav-item">
+                <NavLink className="nav-link text-light" to="/Browse">
+                <button>Browse</button>
+                </NavLink>
+              </li>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-light" to="/">
+                <button>About</button>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-light" to="/">
+                <button>Join Us</button>
                 </NavLink>
               </li>
      

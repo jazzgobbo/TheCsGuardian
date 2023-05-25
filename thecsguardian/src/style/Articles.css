@@ -1,0 +1,81 @@
+.tv-parent {
+    width: 100%;
+    height: 900px;
+    background: #272626;
+    display: flex;
+    overflow-y: scroll;
+    z-index: 98px;
+}
+
+.tv-content h1 {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-variant-ligatures: normal;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    color: Grey;
+    padding-left: 5%;
+
+}
+
+.tv-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    max-width: 1400px; /* Adjust this as needed */
+  }
+  
+  .articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 25%;
+    margin: 5%;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* for 4:3 aspect ratio */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .like-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: grey;
+  }
+  
