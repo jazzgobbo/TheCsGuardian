@@ -11,17 +11,17 @@ const Menu = () => {
           
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/">
-                  <p>Home</p>
+                  <button>Home</button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/Articles">
-                <p>Articles</p>
+                <button>Articles</button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link text-light" to="/Media">
-                  <p>Media</p>
+                  <button>Media</button>
                 </NavLink>
               </li>
      

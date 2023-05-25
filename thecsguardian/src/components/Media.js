@@ -1,16 +1,14 @@
 //import '/Users/jazzgobbo/Documents/GitHub/NorthwesternTV/src/App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Menu from './Menu.js';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Media.css';
-import NavBar from './NavBar.js';
 
 
 // figure out how to dynamically embed youtube videos
 const Media = () => {
   return (
     <div className="tv-parent">
-        <NavBar />
         <Menu />
       <div className="tv-content">
         <section>
