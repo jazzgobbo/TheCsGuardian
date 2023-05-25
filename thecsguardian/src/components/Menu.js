@@ -7,6 +7,10 @@ const Menu = () => {
   return (
     <div className="left">
       <nav className="nav flex-column bg-dark">
+        <div class="title">
+          <h1>The CS Guardian</h1>
+        </div>
+
         <div className="channels">
           
               <li className="nav-item">
