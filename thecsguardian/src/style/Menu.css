@@ -1,0 +1,29 @@
+text {
+    color: rgb(144, 144, 144);
+    font-size: 15px;
+    font-weight: 400
+}
+
+.left {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background: #1E1E1E;
+    z-index: 99px;
+}
+
+.channels {
+    position: fixed;
+    width: 20%;
+    top: 13%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    /* or 200% */
+    z-index: 99px;
+    letter-spacing: 0.2px;
+    mix-blend-mode: lighten;
+}
