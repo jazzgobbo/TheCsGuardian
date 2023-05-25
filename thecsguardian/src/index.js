@@ -24,7 +24,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Menu,
-  Home
+  Home,
+  Articles,
+  Media
 } from "./components";
 
 ReactDOM.render(
@@ -32,6 +34,8 @@ ReactDOM.render(
     <Menu />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/Artiles" element={<Articles />} />
+      <Route path="/Media" element={<Media />} />
 
     </Routes>
   </Router>,

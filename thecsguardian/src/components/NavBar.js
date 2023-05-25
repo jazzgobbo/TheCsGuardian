@@ -5,9 +5,7 @@ import "../style/NavBar.css";
 const NavBar = () => {
     return (
         <nav className="nav-bar">
-            <div className="home">
-                <text>Home</text>
-            </div>
+
             <div className="about">
                 <text>About</text>
             </div>

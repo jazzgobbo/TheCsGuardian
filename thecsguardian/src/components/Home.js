@@ -12,8 +12,8 @@ const Home = () => {
       <Menu />
       
         <div className="text-content">
-          <h2> Welcome to <h1>NorthwesternTV</h1> </h2>
-          <h3>Happy watching</h3>
+          <h2> Welcome to <h1>TheCSGuardian</h1> </h2>
+          <h3>Happy Browsing</h3>
           
 
         </div>
