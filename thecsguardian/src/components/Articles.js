@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './Menu.js';
 import '../style/Articles.css';
-import { FaThumbsUp } from 'react-icons/fa'; // for the like button
+import { FaThumbsUp, FaToggleOn, FaVolumeUp } from 'react-icons/fa'; // for the like button
 
 const Articles = () => {
   const posts1 = [
@@ -26,6 +26,7 @@ const Articles = () => {
       <Menu />
       <div className="tv-content">
       <h1>RECENT NEWS</h1> 
+      <FaToggleOn className='toggle-icon'/>
         <section>
           <div className="articles">
             {posts1.map(post => (
@@ -35,6 +36,7 @@ const Articles = () => {
                   <h2 className="card-title">{post.title}</h2>
                   <div className="like-section">
                     <FaThumbsUp className="like-icon" />
+                    <FaVolumeUp className="sound-icon"/>
                   </div>
                 </div>
               </div>
@@ -49,6 +51,7 @@ const Articles = () => {
                   <h2 className="card-title">{post.title}</h2>
                   <div className="like-section">
                     <FaThumbsUp className="like-icon" />
+                    <FaVolumeUp className="sound-icon"/>
                   </div>
                 </div>
               </div>
@@ -63,6 +66,7 @@ const Articles = () => {
                   <h2 className="card-title">{post.title}</h2>
                   <div className="like-section">
                     <FaThumbsUp className="like-icon" />
+                    <FaVolumeUp className="sound-icon"/>
                   </div>
                 </div>
               </div>

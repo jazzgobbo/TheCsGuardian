@@ -78,4 +78,20 @@
     cursor: pointer;
     color: grey;
   }
+
+  .sound-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: grey;
+    margin: 10%;
+
+  }
+
+  .toggle-icon {
+    font-size: 50px;
+    cursor: pointer;
+    color: grey;
+    margin-left: 5%;
+
+  }
   
